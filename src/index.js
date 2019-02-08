@@ -19,6 +19,9 @@ function cliapp(path,args){
    
      this.exefilepath= path
      this.appname =args[0]
+     while(this.appname!="demo"){
+         // do some command,  for better your can use some cli framework like oclif 、commander
+     }
 }
 
 cliapp.prototype.catch=function(err) {
